@@ -1,12 +1,16 @@
 #!/bin/bash -x
 
-# LXD Example on how to add a "Store" and download Ubuntu for POWER
-# "Stores" is also known as "remote" and handled by the lxc remote commands.
+#########################################################################
+## A script to download a Ubuntu 15.10 container for Power, launch it  ##
+## run a command inside it, and remove it on Power.                    ##
+## This operation usually takes around 20 seconds on these VCaaS VM    ##
+#########################################################################
 
-## Add a store pointer to http://images.linuxcontainers.org
+# Add a remote pointer to http://images.linuxcontainers.org
+# A remote could be seen as a remote in git.
 lxc remote add store images.linuxcontainers.org
 
-# List current stores:
+# List current remotes
 lxc remote list
 
 # list the store
@@ -28,7 +32,14 @@ lxc remote set-default local
 # Start the container
 lxc launch store:ubuntu/wily/ppc64el ubuntu
 
-# Delete remote
+# List the containers
+lxc list
+
+# Run a command inside the container
+# In this case, showing all the processes inside a container
+lxc exec ubuntu -- ps aux
+
+## Delete remote
 lxc remote remove store
 
 # Stop a running container
