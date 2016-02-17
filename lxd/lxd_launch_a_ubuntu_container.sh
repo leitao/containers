@@ -30,3 +30,9 @@ lxc launch store:ubuntu/wily/ppc64el ubuntu
 
 # Delete remote
 lxc remote remove store
+
+# Stop a running container
+lxc stop ubuntu
+
+# Delete a running container
+lxc delete ubuntu
