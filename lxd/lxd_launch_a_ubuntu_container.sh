@@ -13,7 +13,7 @@ lxc remote add store images.linuxcontainers.org
 # List current remotes
 lxc remote list
 
-# list the store
+# List the images in the remote
 lxc image list store:
 
 ## Or, you can set a store as the default remote, and avoid using "store:"
