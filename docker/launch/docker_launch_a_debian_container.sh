@@ -10,7 +10,7 @@
 docker search ppc64
 
 # Download the debian container for ppc64el
-docker pulll ppc64le/debian
+docker pull ppc64le/debian
 
 # List all images in the machine
 docker images
@@ -37,7 +37,7 @@ docker diff mycontainer3
 docker commit -a "Author" -m "Add a net tmp directory" mycontainer2 debian_v2
 
 # Create a new container based on the new image and attach to it
-docker run --name=mycontainer3 -i -t debian_v2 bash 
+docker run --name=mycontainer4 -i -t debian_v2 bash 
 
 # Remove the containers
 docker rm mycontainer
