@@ -48,3 +48,5 @@ docker rm mycontainer4
 # Remove the new image
 docker rmi debian_v2
 
+# Keep the old image as a cache. Not removing it.
+#docker rmi debian
