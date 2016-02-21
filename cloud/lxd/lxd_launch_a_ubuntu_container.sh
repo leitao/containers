@@ -46,4 +46,4 @@ lxc remote remove store
 lxc stop ubuntu
 
 # NOT Deleting the container image. Keep it in cache.
-#lxc delete ubuntu
+lxc delete ubuntu
