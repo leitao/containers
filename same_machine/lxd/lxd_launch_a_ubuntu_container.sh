@@ -6,7 +6,7 @@
 ## This operation usually takes around 20 seconds on these VCaaS VM    ##
 #########################################################################
 
-CONTAINERNAME=ubuntu_$USER
+CONTAINERNAME=ubuntu$USER
 
 # Add a remote pointer to http://images.linuxcontainers.org
 # A remote could be seen as a remote in git.
