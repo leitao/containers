@@ -49,4 +49,4 @@ lxc stop ubuntu
 lxc delete ubuntu
 
 # NOT Deleting the container image. Keep it in cache.
-lxc image delete ubuntu
+#lxc image delete ubuntu
