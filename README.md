@@ -37,10 +37,12 @@ Go to the lab webpage at https://github.com/leitao/containers.
    the **PuTTY** application.
 3. Inside the PuTTY application, go to **Host Name** box and type your instance
    IP.
-4. Click open and you will be inside a Ubuntu 15.10 on Power environment.
-5. Type the user and password on the paper in front of you.
+4. Click **open** and you will be inside a Ubuntu 15.10 on Power environment.
+5. Type the user and password as in the paper infront of you.
 6. You should be ready to start the lab.
 
+> Be careful with these instances. They have public facing IPs and they are NOT firewalled.
+> Do not put confidential information on it.
 
 ## Technologies ##
 
