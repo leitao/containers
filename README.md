@@ -1,8 +1,22 @@
-# Scripts to show the "Open Containers" demo at IBM Interconnect 2016 at Las Vegas #
+# "Open Containers" demo at IBM Interconnect 2016 at Las Vegas #
 
-The two major directories contains the same scripts, one to run at VCaaS cloud
-images, and another on in a Cloud machine in Brazil.
+These are the scripts that will handle the Open Container lab. 
 
+## Agenda ##
+
+ 1. Intro, Setup and machine access (10 minutes)
+	o. Expectation: Everyone has access to the virtual machine
+ 2. Docker principles (10 minutes)
+	1. Understand and run the container management scripts at
+	   /containers/cloud/docker/launch 
+	1. Create a new Docker image using a Docker file
+ 3. LXD principles (10 minutes)
+	1. Understand the LXD commands and how to handle a container image
+ 4. LXC principles (10 minutes)
+	1. Learn how to handle a LXC container
+	2. Understands how a new image could be created using debootstrap
+ 5. Q&A (20 minutes)
+	
 ## Technologies ##
 
 This tutorial will cover 3 container technologies on Linux on Power.
@@ -36,13 +50,18 @@ ways to get a container image, and how to customize an image on Docker:
 	  will need to register at https://hub.docker.com/register/
 	
  * LXC 
-	- Download an image already built and ready from [Linux Containers website](https://linuxcontainers.org)t a
+	- Download an image already built and ready from [Linux Containers website](https://linuxcontainers.org)
 
  * LXD
 	- Create a Linux image directly from a apt repository using
 	  debootstrap(1) command:
 	  Debootstrap basically get the .deb packages from an archive and
 	  extract them so they can create a basic and functional rootfs
+
+## Scripts structure ##
+
+The two major directories contains the same scripts, one to run at VCaaS cloud
+images, and another on in a Cloud machine in Brazil.
 
 ## Privileges ##
 
