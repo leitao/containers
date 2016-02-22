@@ -2,7 +2,7 @@
 
 These are the scripts that will handle the Open Container lab. 
 
-This lab will happen on *Mon, 22-Feb, 10:30 AM-11:30 AM* at Room **319** (MGM)
+This lab will take place on *Mon, 22-Feb, 10:30 AM-11:30 AM* at room **319** (MGM)
 
 ## Agenda ##
 
