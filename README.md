@@ -5,7 +5,7 @@ These are the scripts that will handle the Open Container lab.
 ## Agenda ##
 
  1. Intro, Setup and machine access (10 minutes)
-	o. Expectation: Everyone has access to the virtual machine
+	1. Expectation: Everyone has access to the virtual machine
  2. Docker principles (10 minutes)
 	1. Understand and run the container management scripts at
 	   /containers/cloud/docker/launch 
@@ -16,6 +16,7 @@ These are the scripts that will handle the Open Container lab.
 	1. Learn how to handle a LXC container
 	2. Understands how a new image could be created using debootstrap
  5. Q&A (20 minutes)
+ 6. Continue to play with the VMs and get in touch with the Container specialists at the the Containers ped. :-)
 	
 ## Technologies ##
 
