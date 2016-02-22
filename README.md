@@ -4,19 +4,21 @@ These are the scripts that will handle the Open Container lab.
 
 ## Agenda ##
 
- 1. Intro, Setup and machine access (10 minutes)
+ 1. Intro, Setup and machine access *(10 minutes)*
 	1. Expectation: Everyone has access to the virtual machine
- 2. Docker principles (10 minutes)
+ 2. Docker principles *(10 minutes)*
 	1. Understand and run the container management scripts at
 	   /containers/cloud/docker/launch 
 	1. Create a new Docker image using a Docker file
- 3. LXD principles (10 minutes)
+ 3. LXD principles *(10 minutes)*
 	1. Understand the LXD commands and how to handle a container image
- 4. LXC principles (10 minutes)
+ 4. LXC principles *(10 minutes)*
 	1. Learn how to handle a LXC container
 	2. Understands how a new image could be created using debootstrap
- 5. Q&A (20 minutes)
- 6. Continue to play with the VMs and get in touch with the Container specialists at the the Containers ped. :-)
+ 5. Q&A *(20 minutes)*
+ 6. Continue to play with the VMs, the IPs are public.
+	1. If you have any question, get in touch with the Container
+	   specialists at the Container ped
 	
 ## Technologies ##
 
