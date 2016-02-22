@@ -24,16 +24,16 @@ These are the scripts that will handle the Open Container lab.
 
 This tutorial will cover 3 container technologies on Linux on Power.
 
- * Docker
+ * **Docker**
 	- Docker is an open source tool that added image handling on top of
 	  Linux containers.
 
- * LXC
+ * **LXC**
 	- LXC is the well known set of tools, templates, library and language
 	  bindings. It's pretty low level, very flexible and covers just about
    	  every containment feature supported by the upstream kernel
 
- * LXD
+ * **LXD**
 	- LXD, called *lex‐dee*, is a container "hypervisor" and a new user
 	  experience for LXC.
 	  LXD is built on top of LXC to provide a new, better user experience.
@@ -46,16 +46,16 @@ three different technologies.
 In order to cover also image handling, this lab will also use three different
 ways to get a container image, and how to customize an image on Docker:
 
- * Docker
+ * **Docker**
 	- Download an image already built and ready from the official [Dockerhub](https://hub.docker.com)
 	- Customize an downloaded image. Change the cowsay(1) image.
 	- If you want to push your image to the official Dockerhub registry, you
 	  will need to register at https://hub.docker.com/register/
 	
- * LXC 
+ * **LXC**
 	- Download an image already built and ready from [Linux Containers website](https://linuxcontainers.org)
 
- * LXD
+ * **LXD**
 	- Create a Linux image directly from a apt repository using
 	  debootstrap(1) command:
 	  Debootstrap basically get the .deb packages from an archive and
