@@ -42,10 +42,11 @@ lxc exec ubuntu -- ps aux
 ## Delete remote
 lxc remote remove store
 
-# Stop a running container
-lxc stop ubuntu
+# Stop a running container. Set the timeout to 10 secs, after that, hard kill
+# the container
+lxc stop -t 10 ubuntu
 
-# Delete the container itself
+# Delete the container itself.
 lxc delete ubuntu
 
 # NOT Deleting the container image. Keep it in cache.
