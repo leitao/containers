@@ -1,4 +1,4 @@
-# "Open Containers" demo at IBM Interconnect 2016 at Las Vegas #
+# "Open Containers on OpenPower" lab at IBM Interconnect 2016 at Las Vegas #
 
 These are the scripts that will handle the Open Container lab. 
 
@@ -73,6 +73,8 @@ debootstrap(1) command needs a sudo privilege, meaning that the LXD example
 will be used with sudo.
 
 ## Virtual Machines ##
+
+These machines are provided as part of a Technology Preview of a Virtual Machine Service running on POWER8 in SoftLayer. They have a PED in the Solution EXPO if anyone is interested in learning more. The PED will be in the Systems - Power Area.
 
 Instance      |  IP
 --------------|--------------
