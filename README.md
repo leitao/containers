@@ -91,6 +91,7 @@ Go to the lab webpage at https://github.com/leitao/containers.
 > Do not put confidential information on it.
 
 
+=======================
 ## Scripts structure ##
 
 The two major directories contains the same scripts, one to run at VCaaS cloud
