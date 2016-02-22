@@ -30,12 +30,13 @@ In order to cover also image handling, this lab will also use three different
 ways to get a container image, and how to customize an image on Docker:
 
  * Docker
-	- Download an image already built and ready from the official Dockerhub
+	- Download an image already built and ready from the official [Dockerhub](https://hub.docker.com)
 	- Customize an downloaded image. Change the cowsay(1) image.
-
+	- If you want to push your image to the official Dockerhub registry, you
+	  will need to register at https://hub.docker.com/register/
+	
  * LXC 
-	- Download an image already built and ready from
-	  https://linuxcontainers.org/
+	- Download an image already built and ready from [Linux Containers website](https://linuxcontainers.org)t a
 
  * LXD
 	- Create a Linux image directly from a apt repository using
