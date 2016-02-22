@@ -140,3 +140,12 @@ Special thanks for the team that got these machines running in time:
   * Franck Barillaud
   * John Jacobson
   * Johnny Shieh
+
+## Who am I ##
+
+Breno Leitao is a software engineer in Brazil working with Linux since 1997 and
+focused on Linux on Power since 2007.
+
+Contact: brenohl@br.ibm.com
+
+You can find me in the Container PED at Systems - Power section in the expo arena.
