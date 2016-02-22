@@ -34,7 +34,7 @@ This tutorial will cover 3 container technologies on Linux on Power.
    	  every containment feature supported by the upstream kernel
 
  * LXD
-	- LXD, called "lex‐dee", is a container "hypervisor" and a new user
+	- LXD, called *lex‐dee*, is a container "hypervisor" and a new user
 	  experience for LXC.
 	  LXD is built on top of LXC to provide a new, better user experience.
 
@@ -64,17 +64,20 @@ ways to get a container image, and how to customize an image on Docker:
 ## Scripts structure ##
 
 The two major directories contains the same scripts, one to run at VCaaS cloud
-images, and another on in a Cloud machine in Brazil.
+images, and another one in a single machine in Brazil.
 
 ## Privileges ##
 
-Almost all these commands could be run with unpriviliged users, although,
+Almost all these commands could be run with unprivileged users, although,
 debootstrap(1) command needs a sudo privilege, meaning that the LXD example
 will be used with sudo.
 
 ## Virtual Machines ##
 
-These machines are provided as part of a Technology Preview of a Virtual Machine Service running on POWER8 in SoftLayer. They have a PED in the Solution EXPO if anyone is interested in learning more. The PED will be in the Systems - Power Area.
+These machines are provided as part of a Technology Preview of a Virtual
+Machine Service running on POWER8 in SoftLayer. They have a PED in the Solution
+EXPO if anyone is interested in learning more. The PED will be in the Systems -
+Power Area.
 
 Instance      |  IP
 --------------|--------------
@@ -128,3 +131,6 @@ Instance      |  IP
  instance-48  | 169.45.172.124 
  instance-49  | 169.45.172.125 
  instance-50  | 169.45.172.126 
+
+Special thanks for the team that got these machines running in time for
+Interconnect: John Jacobson, Franck Barillaud and Johnny Shieh.
