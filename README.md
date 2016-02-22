@@ -134,6 +134,6 @@ Instance      |  IP
 
 Special thanks for the team that got these machines running in time:
 
-	- Franck Barillaud
-	- John Jacobson
-	- Johnny Shieh
+  * Franck Barillaud
+  * John Jacobson
+  * Johnny Shieh
