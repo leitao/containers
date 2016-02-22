@@ -133,4 +133,7 @@ Instance      |  IP
  instance-50  | 169.45.172.126 
 
 Special thanks for the team that got these machines running in time for
-Interconnect: John Jacobson, Franck Barillaud and Johnny Shieh.
+Interconnect: 
+	* Franck Barillaud
+	* John Jacobson
+	* Johnny Shieh.
