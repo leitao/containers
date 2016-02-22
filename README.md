@@ -21,6 +21,8 @@ This lab will take place on *Mon, 22-Feb, 10:30 AM-11:30 AM* at room **319** (MG
  6. Continue to play with the VMs, the IPs are public.
 	1. If you have any question, get in touch with the Container
 	   specialists at the Container ped
+7. If you need an VM with longer living VM, you can use the Unicamp University
+   Power mini cloud.
 	
 ## Technologies ##
 
@@ -64,6 +66,7 @@ ways to get a container image, and how to customize an image on Docker:
 	  extract them so they can create a basic and functional rootfs
 
 > To speed up the lab, these VMs have Docker, LXC and LXD installed already.
+>
 > The process to install these packages could be seen in the printed material
 
 ## Getting Started ##
