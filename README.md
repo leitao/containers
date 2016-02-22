@@ -22,27 +22,6 @@ This lab will take place on *Mon, 22-Feb, 10:30 AM-11:30 AM* at room **319** (MG
 	1. If you have any question, get in touch with the Container
 	   specialists at the Container ped
 	
-## Getting Started ##
-
-Go to the lab webpage at https://github.com/leitao/containers.
-
-1. Get you VM IP according to the instance number described in the paper number
-   in front of you computer.
-	1. Get the IP for you instance on the table below.
-		- I.e, if you have instance #3, your IP should be
-		  *169.44.29.133*. If you have instance #22 your IP is
-		  *169.45.172.98* and so on.
-2. On Microsoft Windows, go to *Start* -> *All programs* -> *PuTTY* and open
-   the **PuTTY** application.
-3. Inside the PuTTY application, go to **Host Name** box and type your instance
-   IP.
-4. Click **open** and you will be inside a Ubuntu 15.10 on Power environment.
-5. Type the user and password as in the paper infront of you.
-6. You should be ready to start the lab.
-
-> Be careful with these instances. They have public facing IPs and they are NOT firewalled.
-> Do not put confidential information on it.
-
 ## Technologies ##
 
 This tutorial will cover 3 container technologies on Linux on Power.
@@ -83,6 +62,28 @@ ways to get a container image, and how to customize an image on Docker:
 	  debootstrap(1) command:
 	  Debootstrap basically get the .deb packages from an archive and
 	  extract them so they can create a basic and functional rootfs
+
+## Getting Started ##
+
+Go to the lab webpage at https://github.com/leitao/containers.
+
+1. Get you VM IP according to the instance number described in the paper number
+   in front of you computer.
+	1. Get the IP for you instance on the table below.
+		- I.e, if you have instance #3, your IP should be
+		  *169.44.29.133*. If you have instance #22 your IP is
+		  *169.45.172.98* and so on.
+2. On Microsoft Windows, go to *Start* -> *All programs* -> *PuTTY* and open
+   the **PuTTY** application.
+3. Inside the PuTTY application, go to **Host Name** box and type your instance
+   IP.
+4. Click **open** and you will be inside a Ubuntu 15.10 on Power environment.
+5. Type the user and password as in the paper infront of you.
+6. You should be ready to start the lab.
+
+> Be careful with these instances. They have public facing IPs and they are NOT firewalled.
+> Do not put confidential information on it.
+
 
 ## Scripts structure ##
 
