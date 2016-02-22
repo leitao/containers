@@ -63,6 +63,9 @@ ways to get a container image, and how to customize an image on Docker:
 	  Debootstrap basically get the .deb packages from an archive and
 	  extract them so they can create a basic and functional rootfs
 
+> To speed up the lab, these VMs have Docker, LXC and LXD installed already.
+> The process to install these packages could be seen in the printed material
+
 ## Getting Started ##
 
 Go to the lab webpage at https://github.com/leitao/containers.
