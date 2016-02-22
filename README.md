@@ -88,9 +88,15 @@ Go to the lab webpage at https://github.com/leitao/containers.
 6. The scripts repo is already clone at *~/containers*.
 7. Start with Docker :
 	1. Basic docker management:
-		- containers/cloud/docker/launch/docker_launch_a_debian_container.sh
+		- *cloud/docker/launch/docker_launch_a_debian_container.sh*
 	2. Create a cowsay image using script:
-		- /home/ubuntu/containers/cloud/docker/cowsay/docker_create_image.sh 
+		- *cloud/docker/cowsay/docker_create_image.sh*
+
+8. Move to LXD
+	1. Basic container management
+		- *cloud/lxd/lxd_launch_a_ubuntu_container.sh*
+9. Move to LXC
+	1. *cloud/lxc/lxc_launch_a_ubuntu_container.sh*
 	
 
 > Be careful with these instances. They have public facing IPs and they are NOT firewalled.
