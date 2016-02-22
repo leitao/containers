@@ -6,8 +6,9 @@
 #########################################################################
 
 # Instantiate a container directly from the web
-# This will will create a ubuntu container with name “ubuntu01″ from a
-# debootstrap(1) command.
+# This will will create a ubuntu container from scratch with name “ubuntu01″
+# from a debootstrap(1) command. Debootstrap needs sudo privileges, otherwise
+# you should use the 'download' template, to use a already created image.
 lxc-create -n ubuntu01 -t ubuntu
 
 # Start the container
