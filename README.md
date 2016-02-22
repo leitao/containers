@@ -85,10 +85,21 @@ Go to the lab webpage at https://github.com/leitao/containers.
    IP.
 4. Click **open** and you will be inside a Ubuntu 15.10 on Power environment.
 5. Type the user and password as in the paper infront of you.
-6. You should be ready to start the lab.
+6. The scripts repo is already clone at *~/containers*.
+7. Start with Docker :
+	1. Basic docker management:
+		- containers/cloud/docker/launch/docker_launch_a_debian_container.sh
+	2. Create a cowsay image using script:
+		- /home/ubuntu/containers/cloud/docker/cowsay/docker_create_image.sh 
+	
 
 > Be careful with these instances. They have public facing IPs and they are NOT firewalled.
 > Do not put confidential information on it.
+
+
+
+
+Let's get to the machine and start playing with the scripts.
 
 
 =======================
