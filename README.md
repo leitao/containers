@@ -22,7 +22,6 @@ This lab will take place on *Mon, 22-Feb, 10:30 AM-11:30 AM* at room **319** (MG
 	1. If you have any question, get in touch with the Container
 	   specialists at the Container ped
 	
-
 ## Getting Started ##
 
 Go to the lab webpage at https://github.com/leitao/containers.
@@ -31,8 +30,8 @@ Go to the lab webpage at https://github.com/leitao/containers.
    in front of you computer.
 	1. Get the IP for you instance on the table below.
 		- I.e, if you have instance #3, your IP should be
-		  169.44.29.133. If you have instance #22 your IP is
-169.45.172.98 and so on.
+		  *169.44.29.133*. If you have instance #22 your IP is
+		  *169.45.172.98* and so on.
 2. On Microsoft Windows, go to *Start* -> *All programs* -> *PuTTY* and open
    the **PuTTY** application.
 3. Inside the PuTTY application, go to **Host Name** box and type your instance
