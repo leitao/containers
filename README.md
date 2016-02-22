@@ -1,4 +1,4 @@
-# "Open Containers on OpenPower" lab at IBM Interconnect 2016 at Las Vegas #
+# *YPS-1821 : Open Containers on IBM Power Systems* lab at IBM Interconnect 2016 at Las Vegas #
 
 These are the scripts that will handle the Open Container lab. 
 
@@ -20,6 +20,10 @@ These are the scripts that will handle the Open Container lab.
 	1. If you have any question, get in touch with the Container
 	   specialists at the Container ped
 	
+## When/Where ##
+ **Date/Time:** Mon, 22-Feb, 10:30 AM-11:30 AM
+ **Room:** Room 319 (MGM)
+
 ## Technologies ##
 
 This tutorial will cover 3 container technologies on Linux on Power.
