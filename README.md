@@ -1,6 +1,6 @@
 # *YPS-1821 : Open Containers on IBM Power Systems* lab at IBM Interconnect 2016 at Las Vegas #
 
-These are the scripts that will handle the Open Container lab. 
+Welcome to the **Open Container on IBM Power system** lab.
 
 This lab will take place on *Mon, 22-Feb, 10:30 AM-11:30 AM* at room **319** (MGM)
 
