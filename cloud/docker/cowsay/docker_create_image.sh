@@ -10,3 +10,7 @@ docker run --name=cowsaycontainer $IMAGE
 
 # delete the container that just executed
 docker rm cowsaycontainer
+
+# delete the image
+docker rmi cowimage
+
