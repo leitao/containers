@@ -1,7 +1,7 @@
-#1/bin/bash -x
+#/bin/bash -x
 
 IMAGE=cowimage
-DOCKERFILEPATH=/home/ubuntu/containers/cloud/docker/cowsay
+DOCKERFILEPATH=/home/root/containers/cloud/docker/cowsay
 
 docker build -t $IMAGE $DOCKERFILEPATH
 
