@@ -14,6 +14,7 @@ lxc remote add store images.linuxcontainers.org
 lxc remote list
 
 # List the images in the remote
+# There are other remotes pre configured, as ubuntu: and ubuntu-daily:
 lxc image list store:
 
 ## Or, you can set a store as the default remote, and avoid using "store:"
