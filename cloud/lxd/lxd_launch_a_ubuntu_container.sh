@@ -14,6 +14,7 @@ lxc remote add store images.linuxcontainers.org
 lxc remote list
 
 # List the images in the remote
+# There are other remotes pre configured, as ubuntu: and ubuntu-daily:
 lxc image list store:
 
 ## Or, you can set a store as the default remote, and avoid using "store:"
@@ -44,7 +45,7 @@ lxc remote remove store
 
 # Stop a running container. Set the timeout to 10 secs, after that, hard kill
 # the container
-lxc stop -t 10 ubuntu
+lxc stop ubuntu
 
 # Delete the container itself.
 lxc delete ubuntu

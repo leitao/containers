@@ -43,3 +43,6 @@ lxc-destroy -n ubuntu01
 # Try to create another container using
 #lxc-create -n mycontainer -t download
 
+
+# Remove the bootstraped rootfs
+rm -fr /var/cache/lxc/xenial/rootfs-ppc64el
