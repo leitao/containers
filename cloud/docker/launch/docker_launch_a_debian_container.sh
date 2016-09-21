@@ -34,7 +34,7 @@ docker run --name=mycontainer3 ppc64le/debian mkdir /tmp/foo
 docker diff mycontainer3
 
 # Commit the changes to a new image
-docker commit -a "Author" -m "Add a net tmp directory" mycontainer2 debian_v2
+docker commit -a "Author" -m "Add a net tmp directory" mycontainer3 debian_v2
 
 # Create a new container based on the new image and attach to it
 docker run --name=mycontainer4 -i -t debian_v2 bash 
